@@ -27,7 +27,7 @@
     {
       devShells = forEachSupportSystem ({ pkgs }: {
         default = pkgs.mkShell {
-          packages = with pkgs; [ kotlin gradle jdk ];
+          packages = with pkgs; [ kotlin gradle jdk kotlin-language-server ktfmt ktlint detekt ];
         };
       });
     };
