@@ -11,6 +11,10 @@
         path = ./kotlin;
         description = "Kotlin dev environment";
       };
+      node = {
+        path = ./node;
+        description = "Nodejs dev environment";
+      };
     };
   };
 }
