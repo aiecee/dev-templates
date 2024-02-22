@@ -15,6 +15,10 @@
         path = ./node;
         description = "Nodejs dev environment";
       };
+      go = {
+        path = ./go;
+        description = "Golang dev environment";
+      };
     };
   };
 }
