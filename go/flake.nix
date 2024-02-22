@@ -24,7 +24,7 @@
             [
               go
               gopls
-              golanfgci-lint
+              golangci-lint
               golangci-lint-langserver
               gofumpt
               go-tools
