@@ -19,6 +19,10 @@
         path = ./go;
         description = "Golang dev environment";
       };
+      rust = {
+        path = ./rust;
+        description = "Rust dev environment";
+      };
     };
   };
 }
